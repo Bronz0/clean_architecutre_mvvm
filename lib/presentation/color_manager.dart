@@ -6,6 +6,8 @@ class ColorManager{
   static Color grey = HexColor.fromHex("#737477");
   static Color lightGrey = HexColor.fromHex("#9E9E9E");
   static Color primaryOpacity70 = HexColor.fromHex("#70ED9728");
+  static Color white = HexColor.fromHex("#FFFFFF");
+  static Color error = HexColor.fromHex("#FF0000");
 }
 
 
