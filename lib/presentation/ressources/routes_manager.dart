@@ -1,3 +1,4 @@
+import 'package:clean_architecture_mvvm/presentation/ressources/strings_manager.dart';
 import 'package:clean_architecture_mvvm/presentation/splash/splash.dart';
 import 'package:clean_architecture_mvvm/presentation/store_details/store_details.dart';
 import 'package:flutter/material.dart';
@@ -43,9 +44,9 @@ class RouteGenerator{
 
   static Route<dynamic> undefinedRoute(){
     return MaterialPageRoute(builder: (_) => Scaffold(
-      appBar: AppBar(title: const Text("No Route Found")),
+      appBar: AppBar(title: const Text(AppStrings.noRouteFound)),
       body: const Center(
-        child: Text('Undefined Route'),
+        child: Text(AppStrings.noRouteFound),
       ),
     ));
   }
