@@ -1,8 +1,10 @@
-import 'package:clean_architecture_mvvm/presentation/color_manager.dart';
-import 'package:clean_architecture_mvvm/presentation/font_manager.dart';
-import 'package:clean_architecture_mvvm/presentation/style_manager.dart';
-import 'package:clean_architecture_mvvm/presentation/values_manager.dart';
+
+import 'package:clean_architecture_mvvm/presentation/ressources/style_manager.dart';
 import 'package:flutter/material.dart';
+
+import 'values_manager.dart';
+import 'color_manager.dart';
+import 'font_manager.dart';
 
 ThemeData getApplicationTheme() {
   return ThemeData(
